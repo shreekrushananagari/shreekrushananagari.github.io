@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+footer {
+  margin-top: auto !important;
+}
+.pcard-title {
+  position: relative;
+  bottom: 130px;
+  padding: 5px;
+  text-align: left;
+  font-size: 30px;
+  opacity: 0;
+}
+.pcard:hover .pcard-title {
+  opacity: 10;
+  font-weight: 900;
+}
+.view:hover {
+  -webkit-filter: brightness(80%);
+  transition: all 0.4s ease-in-out;
+}
+.imgh {
+  position: relative;
+  top: 30px;
+  height: 20px;
+  text-decoration: none;
+}
+.imgh_ee {
+  position: relative;
+  top: 40px;
+  height: 20px;
+  text-decoration: none;
+}
+.imgh_e {
+  position: relative;
+  top: 70px;
+  height: 20px;
+  text-decoration: none;
+}
+.view {
+  transition: all 0.4s ease-in-out;
+}
+.pcard {
+  transform: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 13px 10px -7px black;
+}
+.pcard:hover {
+  box-sizing: 0px 30px 18ox -8px black;
+  transform: scale(1.05, 1.05);
+}
+
+/* contact */
+
+.map-container-section {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container-section iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
