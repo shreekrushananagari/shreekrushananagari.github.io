@@ -104,3 +104,29 @@ footer {
 	position:relative;
 	top:1px;
 }
+
+.layout_facility{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.videos{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+@media only screen and (max-width: 800px){
+  .layout_facility{
+    justify-content: center;
+  }
+  .videos{
+    flex-direction: column;
+  }
+  .videos iframe{
+    width: 360px;
+    height: 175px;
+  }
+}
