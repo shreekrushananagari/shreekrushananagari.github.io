@@ -140,8 +140,10 @@ footer {
   }
   .facilities{
     width: 100%;
+    font-size: 18px;
   }
   .advantages{
     width: 100%;
+    font-size: 18px;
   }
 }
