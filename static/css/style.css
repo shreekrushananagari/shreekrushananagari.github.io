@@ -140,10 +140,12 @@ footer {
   }
   .facilities{
     width: 100%;
-    font-size: 18px;
   }
   .advantages{
     width: 100%;
-    font-size: 18px;
+  }
+  .advantages h3 span,
+  .facilities h3 span{
+    font-size: 22px;
   }
 }
