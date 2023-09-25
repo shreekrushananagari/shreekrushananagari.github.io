@@ -115,18 +115,33 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
-
+.facility-advantage{
+  width: 80vw;
+  display: flex;
+}
+.facilities{
+  width: 50%;
+}
+.advantages{
+  width: 50%;
+}
 
 
 @media only screen and (max-width: 800px){
-  .layout_facility{
-    justify-content: center;
-  }
   .videos{
     flex-direction: column;
   }
   .videos iframe{
     width: 360px;
     height: 175px;
+  }
+  .facility-advantage{
+    flex-direction: column;
+  }
+  .facilities{
+    width: 100%;
+  }
+  .advantages{
+    width: 100%;
   }
 }
